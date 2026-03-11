@@ -8,20 +8,55 @@
 </head>
 
 <body>
-    <h1>hello world</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ipsum porro, labore delectus nam praesentium
-        ratione reprehenderit laudantium nemo neque.</p>
-
-    Gender:
-    <input type="radio" name="gnd">
-    <label for="male">Male</label>
-    <input type="radio" name="gnd">
-    <label for="Female">Female</label>
-    <input type="radio" name="gnd">
-    <label for="others"> Others</label>
-
-    <input type="email" name="email">
-    <input type="reset" value="send">
+    form</h1>
+   <hr>
+   <label for="name">name:</label>
+   <input type="text" id="user" name="user" placeholder="name">
+   <br>
+   <label for="email">email:</label>
+   <input type="email" id="user" name="user mail" placeholder="user mail">
+   <br>
+   <label for="password">password:</label>
+   <input type="pass" id="pass" name="pass" placeholder="password">
+   <br> 
+   <label>phone:</label>
+   <br>
+   <select>
+      <option value="+880">+880</option>
+      <option value="+660">+660</option>
+      <option value="+990">+990</option>
+   </select>
+   <input type="number" id="phone" name="nmbr" placeholder="01236547890"> 
+   <br>
+   <label for="country">country:</label>
+   <input list="con">
+   <datalist id="con">
+      <option value="bangladesh">bangladesh</option>
+      <option value="india">india</option>
+   </datalist>
+   <br>
+   <label for="date">date of birth:</label>
+   <input type="date" id="date" name="date">
+   <br>
+   <label for="time"> time:</label>
+   <input type="time" id="time" name="time">
+   <br>
+   <label for="color">color:</label>
+   <input type="color" id="color" name="color">
+   <br>
+   <label for="file">your photo:</label>
+   <input type="file" id="file" name="file">
+   <br>
+   <input type="checkbox" id="vehicle1" name="vec">
+   <label for="vehicle1">i have a biake</label>
+   <input type="checkbox" id="vehicle2" name="vec">
+   <label for="vehicle2">i have a bycycle</label>
+   <br>
+   <textarea rows="10" cols="20" placeholder="text write">
+       click here
+   </textarea>
+   <br>
+   <input type="submit" value="send"> <input type="reset">
 </body>
 
 </html>
